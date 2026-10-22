@@ -1,4 +1,4 @@
-function Header( cartCount) {
+function Header( {cartCount} ) {
 
 return (
 <header className="header">
