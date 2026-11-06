@@ -1,91 +1,122 @@
 [
-    {
-        "id": "2415975-selera-melayu",
-        "name": "Selera Melayu",
-        "location": "Mahallah Zubair Al-Awwam",
-        "openHours": "8.00 am - 10.30 pm",
-        "isOpen": true,
-        "menu": [
-            {
-                "id": "2415975-NG01", "name": "Nasi Goreng Pattaya", 
-                "description": "Fried rice wrapped in a fluffy omelette, served with savoury sauce.", 
-                "price": 5.50,
-                "category": "Foods", "available": true },
-            
-            {
-                "id": "2415975-NG02", "name": "Nasi Goreng Ayam", 
-                "description": "A fried rice served with delicious fried chicken.", 
-                "price": 5.00,
-                "category": "Foods", "available": true },
-
-            {
-                "id": "2415975-NG03", "name": "Nasi Goreng USA", 
-                "description": "A fried rice served with an egg and beef with spicy and savoury sauce.", 
-                "price": 7.00,
-                "category": "Foods", "available": true },
-            
-            {
-                "id": "2415975-MG01", "name": "Char Kuey Teow", 
-                "description": "Wok-fried flat rice noodles tossed with savoury sauce, egg, and crunchy bean sprouts.", 
-                "price": 6.00,
-                "category": "Foods", "available": true },
-            
-            {
-                "id": "2415975-MG02", "name": "Mee Goreng Mamak", 
-                "description": "Wok-fried mee with a savoury sauce, egg, and meat.", 
-                "price": 5.50,
-                "category": "Foods", "available": true },
-            
-            {
-                "id": "2415975-BV01", "name": "Teh O Ais", 
-                "description": "A regular iced tea.", 
-                "price": 1.50,
-                "category": "Drinks", "available": true },
-            
-            {
-                "id": "2415975-BV02", "name": "Teh Ais", 
-                "description": "Ice tea with condensed milk.", 
-                "price": 2.50,
-                "category": "Drinks", "available": true },
-            
-            {
-                "id": "2415975-BV03", "name": "Green Tea", 
-                "description": "A refreshing green tea with a light, soothing flavour.", 
-                "price": 3.00,
-                "category": "Drinks", "available": true },
-            
-            {
-                "id": "2415975-AO01", "name": "Telur Mata", 
-                "description": "A freshly fried egg with a golden yolk.",
-                "price": 1.50,
-                "category": "Add-On", "available": true },
-
-            {
-                "id": "2415975-AO02", "name": "Ayam Goreng", 
-                "description": "Crispy fried chicken.", 
-                "price": 4.00,
-                "category": "Add-On", "available": true },
-
-            {
-                "id": "2415975-AO03", "name": "Nuggets (3 pieces)", 
-                "description": "Crispy chicken nuggets.", 
-                "price": 1.00,
-                "category": "Add-On", "available": true },
-
-            {
-                "id": "2415975-AO04", "name": "Sausages (2 pieces)", 
-                "description": "Juicy sausages.", 
-                "price": 1.00,
-                "category": "Add-On", "available": true },
-
-            {
-                "id": "2415975-AO05", "name": "Potate Wedges (3 pieces)", 
-                "description": "Crispy potato wedges.", "price": 2.00,
-                "category": "Add-On", "available": true }
-        ]
-    },
-
-    {
+  {
+    "id": "2415975-selera-melayu",
+    "name": "Selera Melayu",
+    "location": "Mahallah Zubair Al-Awwam",
+    "openHours": "8.00 am - 10.30 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2415975-NG01",
+        "name": "Nasi Goreng Pattaya",
+        "description": "Fried rice wrapped in a fluffy omelette, served with savoury sauce.",
+        "price": 5.5,
+        "category": "Foods",
+        "available": true
+      },
+      {
+        "id": "2415975-NG02",
+        "name": "Nasi Goreng Ayam",
+        "description": "A fried rice served with delicious fried chicken.",
+        "price": 5.0,
+        "category": "Foods",
+        "available": true
+      },
+      {
+        "id": "2415975-NG03",
+        "name": "Nasi Goreng USA",
+        "description": "A fried rice served with an egg and beef with spicy and savoury sauce.",
+        "price": 7.0,
+        "category": "Foods",
+        "available": true,
+        "special": true,
+        "specialPrice": 5.9
+      },
+      {
+        "id": "2415975-MG01",
+        "name": "Char Kuey Teow",
+        "description": "Wok-fried flat rice noodles tossed with savoury sauce, egg, and crunchy bean sprouts.",
+        "price": 6.0,
+        "category": "Foods",
+        "available": true,
+        "special": true,
+        "specialPrice": 4.9
+      },
+      {
+        "id": "2415975-MG02",
+        "name": "Mee Goreng Mamak",
+        "description": "Wok-fried mee with a savoury sauce, egg, and meat.",
+        "price": 5.5,
+        "category": "Foods",
+        "available": true
+      },
+      {
+        "id": "2415975-BV01",
+        "name": "Teh O Ais",
+        "description": "A regular iced tea.",
+        "price": 1.5,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2415975-BV02",
+        "name": "Teh Ais",
+        "description": "Ice tea with condensed milk.",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2415975-BV03",
+        "name": "Green Tea",
+        "description": "A refreshing green tea with a light, soothing flavour.",
+        "price": 3.0,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2415975-AO01",
+        "name": "Telur Mata",
+        "description": "A freshly fried egg with a golden yolk.",
+        "price": 1.5,
+        "category": "Add-On",
+        "available": true
+      },
+      {
+        "id": "2415975-AO02",
+        "name": "Ayam Goreng",
+        "description": "Crispy fried chicken.",
+        "price": 4.0,
+        "category": "Add-On",
+        "available": true
+      },
+      {
+        "id": "2415975-AO03",
+        "name": "Nuggets (3 pieces)",
+        "description": "Crispy chicken nuggets.",
+        "price": 1.0,
+        "category": "Add-On",
+        "available": true
+      },
+      {
+        "id": "2415975-AO04",
+        "name": "Sausages (2 pieces)",
+        "description": "Juicy sausages.",
+        "price": 1.0,
+        "category": "Add-On",
+        "available": true
+      },
+      {
+        "id": "2415975-AO05",
+        "name": "Potate Wedges (3 pieces)",
+        "description": "Crispy potato wedges.",
+        "price": 2.0,
+        "category": "Add-On",
+        "available": true
+      }
+    ]
+  },
+  {
     "id": "2411391-vendor-uthman",
     "name": "Kafe Mahallah Uthman",
     "location": "Mahallah Uthman, IIUM",
@@ -98,7 +129,9 @@
         "description": "Crispy, flaky flatbread served with dhal curry",
         "price": 2.0,
         "available": true,
-        "category": "Bread"
+        "category": "Bread",
+        "special": true,
+        "specialPrice": 1.5
       },
       {
         "id": "2411391-uthman-2",
@@ -158,7 +191,6 @@
       }
     ]
   },
-
   {
     "id": "2411391-vendor-amara",
     "name": "Ayam Gepuk Amara",
@@ -172,7 +204,9 @@
         "description": "Fried chicken with rice, sambal, cucumber and tofu",
         "price": 8.0,
         "available": true,
-        "category": "Chicken"
+        "category": "Chicken",
+        "special": true,
+        "specialPrice": 6.5
       },
       {
         "id": "2411391-amara-2",
@@ -192,8 +226,7 @@
       }
     ]
   },
-
-   {
+  {
     "id": "2418085-serambi-barakah-restaurant",
     "name": "Serambi Barakah Restaurant",
     "location": "Mahallah Faruq, Block F",
@@ -206,7 +239,9 @@
         "description": "The combination of Fried Chicken, Oriental Egg, Homemade Sambal and Aromatic Pandan Steamed Rice infused with 8 types of spices.",
         "price": 7.5,
         "category": "Rice",
-        "available": true
+        "available": true,
+        "special": true,
+        "specialPrice": 6.5
       },
       {
         "id": "2418085-m2",
